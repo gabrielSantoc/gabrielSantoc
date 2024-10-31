@@ -24,5 +24,4 @@
 ![Supabase](https://img.shields.io/badge/-Supabase-000000?style=flat&logo=Supabase)
 ![Git](https://img.shields.io/badge/-Git-000000?style=flat&logo=Git)
 ---
-![friedFetus' GitHub stats](https://github-readme-stats.vercel.app/api?username=friedFetus&show_icons=true&theme=dark )
 
