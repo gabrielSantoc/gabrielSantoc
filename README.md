@@ -16,6 +16,7 @@
 ![Java](https://img.shields.io/badge/-java-000000?style=flat&logo=java)
 ![XML](https://img.shields.io/badge/-XML-000000?style=flat&logo=XML)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-000000?style=flat&logo=javascript)
+![Typescript](https://img.shields.io/badge/-TypeScript-000000?style=flat&logo=typescript)
 ![SQL](https://img.shields.io/badge/-mySQL-000000?style=flat&logo=mysql)
 ![SQLite](https://img.shields.io/badge/-SQLITE-000000?style=flat&logo=SQlite)
 ![Node.Js](https://img.shields.io/badge/-Node.Js-000000?style=flat&logo=node.js)
