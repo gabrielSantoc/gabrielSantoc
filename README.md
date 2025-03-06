@@ -19,6 +19,7 @@
 ![Typescript](https://img.shields.io/badge/-TypeScript-000000?style=flat&logo=typescript)
 ![SQL](https://img.shields.io/badge/-mySQL-000000?style=flat&logo=mysql)
 ![SQLite](https://img.shields.io/badge/-SQLITE-000000?style=flat&logo=SQlite)
+![Prisma](https://img.shields.io/badge/-Prisma-000000?style=flat&logo=prisma)
 ![Node.Js](https://img.shields.io/badge/-Node.Js-000000?style=flat&logo=node.js)
 ![Express](https://img.shields.io/badge/-Express-000000?style=flat&logo=Express)
 ![Firebase](https://img.shields.io/badge/-Firebase-000000?style=flat&logo=Firebase)
