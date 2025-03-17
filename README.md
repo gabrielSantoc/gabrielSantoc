@@ -2,7 +2,7 @@
 ## 🥰About Me:
 👋 Hello! I'm Gabriel Santoc, a passionate Computer Science student at Manuel S. Enverga University Candelaria. Since childhood, I’ve always been amaze by technology, always excited to try new challenges and experiment with things that I am not famillar with.
 
-📱 Mobile Development is my niche, with focus on Flutter and experience in Kotlin, Java, and C#. I’m also skilled in Node.js, Git, and SQL, giving me a strong foundation for building mobile applications and APIs.
+📱 Mobile Development is my niche, with focus on Flutter and experience in Kotlin, Java, and Typescript. I’m also skilled in Node.js, Express, and SQL, giving me a strong foundation for building mobile applications and APIs.
 
 💡 Driven by curiosity and a love for technology, I aim to build solutions that can genuinely help people somehow. 
 
