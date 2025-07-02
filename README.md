@@ -5,8 +5,8 @@ interface Developer {
   name: string;
   role: string;
   email: string;
-  phone: string;
-  location: string;
+  phone?: string;
+  location?: string;
   experience?: number;
 }
 
@@ -14,8 +14,6 @@ const developer: Developer = {
   name: "Gabriel Santoc",
   role: "Flutter Developer || Backend Developer", 
   email: "gabrielsantoc05@gmail.com",
-  phone: "+63 938 7879 207",
-  location: "CALABARZON, Philippnes",
 };
 
 
