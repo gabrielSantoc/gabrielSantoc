@@ -1,29 +1,105 @@
+# 💻 About Me
 
-## 🥰About Me:
-👋 Hello! I'm Gabriel Santoc, a passionate Computer Science student at Manuel S. Enverga University Candelaria. Since childhood, I’ve always been amaze by technology, always excited to try new challenges and experiment with things that I am not famillar with.
+```typescript
+interface Developer {
+  name: string;
+  role: string;
+  email: string;
+  phone: string;
+  location: string;
+  experience?: number;
+}
 
-📱 Mobile Development is my niche, with focus on Flutter and experience in Kotlin, Java, and Typescript. I’m also skilled in Node.js, Express, and SQL, giving me a strong foundation for building mobile applications and APIs.
+const developer: Developer = {
+  name: "Gabriel Santoc",
+  role: "Flutter Developer || Backend Developer", 
+  email: "gabrielsantoc05@gmail.com",
+  phone: "+63 938 7879 207",
+  location: "CALABARZON, Philippnes",
+};
 
-💡 Driven by curiosity and a love for technology, I aim to build solutions that can genuinely help people somehow. 
 
----
+// Work Experience
+// Work Experience
+interface Job {
+  company: string;
+  position: string;
+  duration: string;
+  tech: string[];
+}
 
-##### Languages and Tools:
+const experience: Job[] = [
+  {
+    company: "EMS. Group Inc.",
+    position: "Software Developer Intern",
+    duration: "Feb - Mar 2025",
+    tech: ["HTML", "CSS", "Javascript", "TypeScript", "Node.js", "Express", "Langchain", "FAISS", "mySQL", "CentOS"]
+  },
+];
 
-![Flutter](https://img.shields.io/badge/-Flutter-000000?style=flat&logo=flutter)
-![Dart](https://img.shields.io/badge/-Dart-000000?style=flat&logo=dart)
-![Kotlin](https://img.shields.io/badge/-Kotlin-000000?style=flat&logo=Kotlin)
-![Java](https://img.shields.io/badge/-java-000000?style=flat&logo=java)
-![XML](https://img.shields.io/badge/-XML-000000?style=flat&logo=XML)
-![JavaScript](https://img.shields.io/badge/-JavaScript-000000?style=flat&logo=javascript)
-![Typescript](https://img.shields.io/badge/-TypeScript-000000?style=flat&logo=typescript)
-![SQL](https://img.shields.io/badge/-mySQL-000000?style=flat&logo=mysql)
-![SQLite](https://img.shields.io/badge/-SQLITE-000000?style=flat&logo=SQlite)
-![Prisma](https://img.shields.io/badge/-Prisma-000000?style=flat&logo=prisma)
-![Node.Js](https://img.shields.io/badge/-Node.Js-000000?style=flat&logo=node.js)
-![Express](https://img.shields.io/badge/-Express-000000?style=flat&logo=Express)
-![Firebase](https://img.shields.io/badge/-Firebase-000000?style=flat&logo=Firebase)
-![Supabase](https://img.shields.io/badge/-Supabase-000000?style=flat&logo=Supabase)
-![Git](https://img.shields.io/badge/-Git-000000?style=flat&logo=Git)
----
+// Featured Projects
+// Featured Projects
+interface Project {
+  name: string;
+  description: string;
+  tech: string[];
+  github?: string;
+  demo?: string;
+}
 
+const projects: Project[] = [
+  {
+    name: "myEUC",
+    description: "AI Powered student handbook mobile application",
+    tech: ["Flutter", "Dart", "Supabase", "Express.js", "Langchian", "FAISS"],
+    github: "https://github.com/gabrielSantoc/myEUC-x-Supabase",
+  },
+  {
+    name: "Scheduled Push Notification API",
+    description: "A RESTful API that automatically sends push notifications for upcoming events in the myEUC app.", 
+    tech: ["Node.js", "Express.js", "Javascript", "Docker", "Supabase"],
+    github: "https://github.com/gabrielSantoc/Push-Notification-Service-API"
+  },
+  {
+    name: "EUScheduler",
+    description: "An offline class schedule viewer mobile application designed for university students.",
+    tech: ["Flutter", "Dart", "SQLite", "Supabase"],
+    github: "https://github.com/gabrielSantoc/EUCcheduler",
+  }
+];
+
+// Education
+// Education
+interface Education {
+  degree: string;
+  school: string;
+  startYear: number;
+  endYear: number;
+}
+
+const education: Education = {
+  degree: "Bachelor of Science in Computer Science",
+  school: "Manuel S. Enverga University",
+  startYear: 2021,
+  endYear: 2025,
+};
+
+// Contact Information
+// Contact Information
+const contact = {
+  email: developer.email,
+  linkedin: "https://www.linkedin.com/in/gabriel-santoc-827307281",
+  github: "https://github.com/gabrielSantoc",
+  portfolio: "https://gabrielsantoc.vercel.app"
+};
+
+// Current Status
+// Current Status
+const status = {
+  seekingOpportunities: true,
+  availableForRemote: true,
+  preferredRole: "Backend Developer || Any",
+  startDate: "Immediately"
+};
+
+console.log(`📧 Contact me at: ${contact.email}`);
