@@ -96,7 +96,7 @@ const contact = {
 const status = {
   seekingOpportunities: true,
   availableForRemote: true,
-  preferredRole: "Backend Developer || Any",
+  preferredRole: ["Backend Dev", "Flutter Dev", "Any"],
   startDate: "Immediately"
 };
 
