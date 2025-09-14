@@ -3,7 +3,7 @@
 ```typescript
 interface Developer {
   name: string;
-  role: string;
+  role: string[];
   email: string;
   phone?: string;
   location?: string;
@@ -12,7 +12,7 @@ interface Developer {
 
 const developer: Developer = {
   name: "Gabriel Santoc",
-  role: "Flutter Developer || Backend Developer", 
+  role: "Flutter Developer", "Backend Developer", "Safe Lane", 
   email: "gabrielsantoc05@gmail.com",
 };
 
